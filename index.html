@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Assignment 1
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: black;
+            background-image: url("Mypic.JPG");
+            background-repeat: no-repeat;
+            background-size: 225px;
+            background-position-x: 950px;
+            background-position-y: 200px;
+        }
+
+        /* Small devices (Phones) */
+        @media (min-width:400px) and (max-width: 455px) {
+            body {
+                font-size: 14px;
+                background-position: center center;
+                background-position-y: 450px;
+                background-position-x: 70px;
+            }
+
+            /*.nav {
+                flex-direction: column;
+            }*/
+
+            /*h2 {
+                margin-top: 100px;
+            }*/
+            h3 {
+                margin-top: 270px;
+            }
+
+            h3,
+            h4,
+            h5,
+            h6 {
+                text-align: center;
+            }
+        }
+
+        @media (min-width: 456px) and (max-width: 600px) {
+            body {
+                font-size: 14px;
+                background-position: center center;
+                background-position-y: 400px;
+                background-position-x: 70px;
+            }
+
+            /*.nav {
+                flex-direction: column;
+            }
+
+            /*h2 {
+                margin-top: 100px;
+            }*/
+            h3 {
+                margin-top: 270px;
+            }
+
+            h3,
+            h4,
+            h5,
+            h6 {
+                text-align: center;
+            }
+        }
+
+        h1 {
+            color: goldenrod;
+            text-align: center;
+            text-decoration: underline;
+            font-size: 45px;
+            text-shadow: 3px 3px 10px rgb(102, 31, 31);
+            position: relative;
+        }
+
+        h2 {
+            color: goldenrod;
+            font-size: 12px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        div {
+            color: white;
+            font-size: 18px;
+            line-height: 105%;
+            border: inset;
+            display: inline-block;
+            padding-right: 50px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            padding-left: 25px;
+            border-radius: 5px;
+            margin-left: 25px;
+            margin-top: 35px;
+            border-color: goldenrod;
+            border-width: 2.7px;
+        }
+
+        .para1 {
+            color: white;
+            padding-left: 25px;
+            font-size: 18px;
+            position: relative;
+        }
+
+        h3 {
+            color: goldenrod;
+            padding-left: 25px;
+            font-size: 23px;
+            position: relative;
+            text-decoration-line: underline;
+
+        }
+
+        h4 {
+            color: goldenrod;
+            padding-left: 25px;
+            font-size: 23px;
+            text-decoration-line: underline;
+        }
+
+        ol {
+            color: white;
+            border-left: double;
+            border-color: goldenrod;
+            margin-left: 25px;
+        }
+
+        h5 {
+            color: goldenrod;
+            padding-left: 25px;
+            font-size: 23px;
+            text-decoration-line: underline;
+        }
+
+        .para2 {
+            color: white;
+            padding-left: 25px;
+        }
+
+        h6 {
+            color: goldenrod;
+            padding-left: 25px;
+            font-size: 23px;
+            text-decoration-line: underline;
+        }
+
+        /*.para3 {
+            color: white;
+            padding-left: 25px;
+            padding-bottom: 20px;
+            line-height: 2px;
+        }*/
+        .navbar {
+            background-color:#1a1a1a;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(102, 31, 31, 0.5);
+        }
+        .navbar ul {
+            overflow: auto;
+        }
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+        .navbar li a {
+            padding: 7px 7px;
+            text-decoration: none;
+            color: goldenrod;
+        }
+        .navbar li a:hover {
+            color: blue;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        pre {
+            color: white;
+            text-align: left;
+            font-family: Calibri;
+            border: outset;
+            border-radius: 5px;
+            border-color: goldenrod;
+            border-width: 2px;
+            padding: 20px 25px 20px 25px;
+            margin-left: 25px;
+        }
+        .pics {
+            width: 250px;
+            height: 300px;
+            padding-left: 25px;
+            margin-top: 10px;
+        }
+        .picss {
+            width: 350px;
+            height: 200px;
+            padding-left: 25px;
+            margin-top: 10px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About me">About me</a></li>
+            <li><a href="#My Skills">Skills</a></li>
+            <li><a href="#Projects/Interests">Projects/Interests</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="Home"><h1> My Personal Portfolio</h1>
+    <div> Name: Birdavinder Singh <br>
+        Branch: Information Technology<br>
+        Roll No: 1813 </div><br>
+    <br>
+    </section>
+    <section id="About me"><h3>About Me:</h3>
+    <h2> Hi! </h2>
+    <p class="para1">I am Bir and I am 20 years old <br>
+        I am currently learning about different programming languages <br>
+        and gaining interest in the world of coding.<br>
+        I have some experience in Graphic Designing.<br>
+        I have made some designs using Adobe Photoshop.<br>
+        Despite that, I want to become a data analyst in the future.<br></p><br>
+        </section>
+    <section id="My Skills"><h4>My Skills:</h4>
+    <ol>
+        <li>Basic Graphic Designing</li>
+        <li>Database Management using MySQL and Oracle</li>
+        <li>HTML and CSS</li>
+    </ol><br></section>
+    <section id="Projects/Interests"><h5>Projects/Interests:</h5>
+    <p class="para2">I have made a few designs using Adbobe Photoshop.<br>
+        I do have interest in Animation, Graphic Designing and Data Science.<br></p>
+        <img src="purdue.JPG" class="pics" alt="Designs"><br>
+        <img src="retro.JPG" class="pics" alt="Designs"><br>
+        <img src="cat.JPG" class="picss" alt="Designs">
+    </section>
+    <section id="Contact"><h6>Contact:</h6>
+    <p class="para3"><pre>Phone number - <a href="tel:+919646907380">96469-07380</a> 
+E-mail - <a href="mail.to:birdavinder.singh1@icloud.com">@birdavinder.singh1@icloud.com</a></pre></p>
+    </section>
+</body>
+
+</html>
